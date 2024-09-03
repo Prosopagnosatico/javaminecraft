@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Javascript</title>
+</head>
+<body>
+    <div>
+    <script>
+  
+
+    var peso = (prompt("Qual é o seu peso?"))
+    var altura = (prompt("Qual é a sua altura?"))
+    var IMC = (peso/(altura*altura))
+
+    alert(peso)
+    alert(altura)
+    alert(IMC)
+
+    if (IMC<18.5){ 
+        alert("Peso baixo.")
+    } else if (18.5<IMC && IMC<24.9){
+        alert("Peso adequado")
+    } else if (24.9<IMC && IMC<29.9){
+        alert("sobrepeso.")
+    } else if(29.9<IMC && IMC<34.9){
+        alert("Obesidade grau 1.")
+    }else if (34.9<IMC && 39.9){
+        alert("Obesidade grau2.")
+    }else if (39.9<IMC){
+        alert("Obesidade extrema.")
+    }
+    
+
+
+    </script>
+    </div>
+
+    <script>
+
+        Alert("OUTRO EXERCICIO DE JAVASCRIPT AGORA!!!!!!!!!!!!!!!!")
+
+        var
+    </script>
+    
+</body>
+</html>
